@@ -1,0 +1,21 @@
+$animation-duration: 0.25s;
+
+%transform-simple {
+  transition: transform $animation-duration;
+}
+
+%transform-complex {
+  transition: transform $animation-duration;
+
+  &:hover {
+    transition: transform 0s;
+  }
+}
+
+%all-complex {
+  transition: all $animation-duration;
+
+  &:hover {
+    transition: all 0s;
+  }
+}

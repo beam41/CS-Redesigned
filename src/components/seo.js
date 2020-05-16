@@ -73,6 +73,10 @@ function SEO({ description, lang, meta, title }) {
         href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap"
         rel="stylesheet"
       />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap"
+        rel="stylesheet"
+      ></link>
     </Helmet>
   )
 }

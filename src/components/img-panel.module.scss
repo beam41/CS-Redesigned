@@ -1,0 +1,30 @@
+@import "../styles/animation";
+
+.img_panel_cover {
+  position: absolute;
+  top: 100px;
+  right: -100px;
+  z-index: -1;
+
+  .gradient_cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #fff0, #fff0, #fff);
+  }
+
+  .img_panel {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(5, 250px);
+    grid-template-rows: repeat(3, 250px);
+    & > div {
+      border-radius: 5px;
+      background: rgb(235, 235, 235);
+
+      &.trans {
+        background: none;
+      }
+    }
+  }
+}
