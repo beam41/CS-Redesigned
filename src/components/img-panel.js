@@ -14,7 +14,7 @@ const ImgPanel = () => {
   return (
     <div className={styles.img_panel_cover}>
       <div className={styles.gradient_cover}></div>
-      <div className={styles.img_panel} role="computer science image">
+      <div className={styles.img_panel}>
         {/* row1 */}
         <div className={styles.trans}></div>
         <div></div>

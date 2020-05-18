@@ -1,0 +1,22 @@
+@import "../styles/animation";
+
+.markdown {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 2rem;
+
+  a {
+    @extend %all-complex;
+    color: #0d47a1;
+    text-decoration: none;
+    border-radius: 5px;
+
+    padding: 0 5px;
+    margin: 0 -5px;
+
+    &:hover {
+      color: black;
+      background: rgb(240, 240, 240);
+    }
+  }
+}
